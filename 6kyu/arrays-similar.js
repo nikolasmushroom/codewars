@@ -24,4 +24,4 @@ function arraysSimilar(arr1, arr2) {
     return true;
 }
 
-console.log(arraysSimilar([1, 2, 3], [3, 2, 1]));
+console.log(arraysSimilar([1, 2, 3], [3, 2, '1']));
