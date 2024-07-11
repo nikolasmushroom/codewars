@@ -17,10 +17,10 @@ function findOutlier(integers){
             oddArr.push(integers[i]);
         }
     }
-    if(oddArr.length < evenArr.length){
-        return oddArr[0];
-    }else{
+    if(evenArr.length < oddArr.length){
         return evenArr[0];
+    }else{
+        return oddArr[0];
     }
 }
 
