@@ -25,4 +25,4 @@ function likes(names) {
     }
 }
 
-console.log(likes(['Mikalai']));
+console.log(likes(['Mikalai', 'Darya']));
