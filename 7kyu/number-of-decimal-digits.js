@@ -8,4 +8,4 @@ function digits(n) {
     return String(n).length;
 }
 
-console.log(digits(10));
+console.log(digits(123456789));
