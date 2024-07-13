@@ -35,4 +35,4 @@ function removeSmallest(numbers){
     }
     return res;
 }
-console.log(removeSmallest([1, 2, 3, 4, 5, 6]));
+console.log(removeSmallest([1, 2, 3, 4, 5, 6, 8, 1]));
