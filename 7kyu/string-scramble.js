@@ -20,4 +20,4 @@ function scramble(str, arr) {
     }
     return res.join('');
 };
-console.log(scramble('abcd', [0,3,1,2]));
+console.log(scramble('abcd', [1,3,2,4]));
