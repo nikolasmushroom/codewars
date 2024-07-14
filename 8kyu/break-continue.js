@@ -12,7 +12,7 @@
 //     If you forgot how to push an element to array, please refer to lesson 4.
 
 // ✅ SOLUTION:
-let arrOfDolls = ["Mickey Mouse","Hello Kitty","Snow white"];
+let arrOfDolls = ["Mickey Mouse","Hello Kitty","Snow white", 'Thunder MacQueen'];
 let grabDoll = (dolls) => {
     let bag = [];
     for (let i = 0; i < dolls.length; i++) {
