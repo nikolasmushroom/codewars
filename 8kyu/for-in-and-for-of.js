@@ -21,4 +21,4 @@ function giveMeFive(obj){
     return res;
 }
 
-console.log(giveMeFive({Our: "earth",is: "a", beautyful:"world"}))
+console.log(giveMeFive({Our: "earth",is: "a", beautyful:"Mars"}))
