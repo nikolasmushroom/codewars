@@ -61,4 +61,4 @@ function padIt(str, n) {
     return str;
 }
 
-console.log(padIt('a', 12));
+console.log(padIt('obga', 12));
