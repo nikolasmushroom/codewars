@@ -14,4 +14,4 @@ let DiscoverOriginalPrice = (salePrice,  salePercentage) => {
     let originalPrice = salePrice * 100 / salePriceInPercent;
     return originalPrice.toFixed(2);
 }
-console.log(DiscoverOriginalPrice(75, 25));
+console.log(DiscoverOriginalPrice(75, 100));
