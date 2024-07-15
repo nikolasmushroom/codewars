@@ -11,10 +11,9 @@ function doubleChar(str) {
     let res = [];
     let arr = str.split('');
     for(let i = 0; i < arr.length; i++){
-        res.push(arr[i])
-        res.push(arr[i])
+        res.push(arr[i] + arr[i])
     }
     return res.join('');
 }
 
-console.log(doubleChar('string'));
+console.log(doubleChar('pushString'));
