@@ -27,4 +27,4 @@ function minMax(arr){
     return [min, max];
 }
 
-console.log(minMax([1, 2, 3, 4, 5]));
+console.log(minMax([1, 2, 23, 9, 7, 45]));
