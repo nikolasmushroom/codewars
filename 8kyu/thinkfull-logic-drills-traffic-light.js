@@ -16,4 +16,4 @@ function updateLight(current) {
     }
 }
 
-console.log(updateLight('yellow'));
+console.log(updateLight('green'));
