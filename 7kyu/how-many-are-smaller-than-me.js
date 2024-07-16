@@ -15,9 +15,6 @@ function smaller(nums) {
         for(let x = i; x < nums.length; x++){
             if(nums[i] !== nums[nums.length - 1] && nums[i] > nums[x+1]){
                 counter++;
-                console.log(counter);
-            }else{
-                console.log(false);
             }
         }
         res.push(counter);
