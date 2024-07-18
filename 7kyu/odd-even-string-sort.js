@@ -27,4 +27,4 @@ function sortMyString(S) {
     return even.join('') + ' ' + odd.join('');
 }
 
-console.log(sortMyString("YCOLUE'VREER"));
+console.log(sortMyString("CodeWars"));
