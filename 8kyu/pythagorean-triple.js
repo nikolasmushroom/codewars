@@ -29,4 +29,4 @@ function isPythagoreanTriple(integers) {
     }
 }
 
-console.log(isPythagoreanTriple([2, 4, 6]))
+console.log(isPythagoreanTriple([3, 6, 9]))
