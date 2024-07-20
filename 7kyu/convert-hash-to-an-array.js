@@ -30,4 +30,4 @@ function convertHashToArray(hash){
     return res;
 }
 
-console.log(convertHashToArray({name: 'Jeremy', age: 24, role: 'Software Engineer'}));
+console.log(convertHashToArray({name: 'Jeremy', age: 24, role: 'Backend developer'}));
