@@ -13,8 +13,10 @@
 
 // ✅ SOLUTION:
 function firstToLast(str,c){
-    let first = str.indexOf(c), last = str.lastIndexOf(c);
-    return first == -1 ? -1 : last - first;
+    let arr = str.split('');
+    if(!arr.includes(c)){
+        return -1;
+    }
+    return (arr.lastIndexOf(c) + 1) - (arr.indexOf(c) + 1);
 }
-
-console.log(firstToLast('abcdea', 'a'))
+console.log(firstToLast('abcdea', 'b'))
