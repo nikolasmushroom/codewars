@@ -21,4 +21,4 @@ function strCount(str, letter){
     return index;
 }
 
-console.log(strCount('Hello', 'o'))
+console.log(strCount('Hello', 'l'))
