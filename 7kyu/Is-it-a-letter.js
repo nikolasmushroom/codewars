@@ -11,4 +11,4 @@ function isItLetter(character) {
     }
 }
 
-console.log(isItLetter('a'));
+console.log(isItLetter('2'));
