@@ -20,4 +20,4 @@ function bmi(weight, height) {
         return 'Obese';
 }
 
-console.log(bmi(120, 175));
+console.log(bmi(75.00, 1.75));
