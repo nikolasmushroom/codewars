@@ -14,7 +14,7 @@
 
 // ✅ SOLUTION:
 function timeForMilkAndCookies(date){
-    let day = date.getDay();
+    let day = date.getDate();
     let month = date.getMonth();
     if(day === 24 && month === 11){
         return true;
@@ -23,4 +23,4 @@ function timeForMilkAndCookies(date){
     }
 }
 
-console.log(timeForMilkAndCookies(timeForMilkAndCookies(new Date(2013, 11, 24)) ));
+console.log(timeForMilkAndCookies(new Date(2013, 0, 23)));
