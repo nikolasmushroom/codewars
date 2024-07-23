@@ -23,4 +23,4 @@ function myParseInt(str) {
     }
 }
 
-console.log(myParseInt('5 apples'));
+console.log(myParseInt('   10   '));
