@@ -29,5 +29,5 @@ console.log(strCount({
     second: "1",
     third: false,
     fourth: ["anytime",2,3,4],
-    fifth:  null,
+    fifth:  [null, 2, 3, [1, 2, ['string']]],
 }))
