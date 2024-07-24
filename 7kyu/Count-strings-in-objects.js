@@ -25,7 +25,7 @@ function strCount(obj){
 }
 
 console.log(strCount({
-    first: "1",
+    first: "2",
     second: "2",
     third: false,
     fourth: ["anytime",2,3,4],
