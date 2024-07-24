@@ -50,11 +50,4 @@ function getLengthOfMissingArray(arrayOfArrays) {
     return 0;
 }
 
-console.log(getLengthOfMissingArray([[1],
-    [1, 4, 4],
-    [2, 0],
-    [2, 0, 0, 3, 0],
-    [],
-    [1, 1, 0, 3, 2, 0],
-    [1, 1, 2, 2, 0, 2, 0]])
-)
+console.log(getLengthOfMissingArray([[[1, 2], [4, 5, 1, 1], [1], [5, 6, 7, 8, 9]]]))
