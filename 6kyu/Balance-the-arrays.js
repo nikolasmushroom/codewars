@@ -9,9 +9,6 @@
 // ✅ SOLUTION:
 function balance (arr1, arr2) {
     let arr1obj = {};
-    let arr2obj = {};
-    let res1 = [];
-    let res2 = [];
 
     for (let i = 0; i < arr1.length; i++) {
         if (!arr1obj[arr1[i]]) {
@@ -20,6 +17,8 @@ function balance (arr1, arr2) {
             arr1obj[arr1[i]]++;
         }
     }
+    let arr2obj = {};
+
     for (let x = 0; x < arr2.length; x++) {
         if (!arr2obj[arr2[x]]) {
             arr2obj[arr2[x]] = 1;
@@ -27,9 +26,11 @@ function balance (arr1, arr2) {
             arr2obj[arr2[x]]++;
         }
     }
+    let res1 = [];
     for(let key in arr1obj){
         res1.push(arr1obj[key]);
     }
+    let res2 = [];
     for(let key in arr2obj){
         res2.push(arr2obj[key]);
     }
