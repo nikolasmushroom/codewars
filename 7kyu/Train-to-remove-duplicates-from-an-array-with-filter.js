@@ -32,4 +32,4 @@ function unique(arr) {
     return res;
 }
 
-console.log(unique([ 5, 7, 3, 9, 0, 0, 3, 4, 8, 3 ]))
+console.log(unique([1, 2, 3, 4, 3, 9, 2]))
