@@ -27,4 +27,4 @@ function friend(friends){
     }
 }
 
-console.log(friend(['Misha', 'Masha', 'Dasha', 'Eva', 'Vlad']));
+console.log(friend(['Misha', 'Masha', 'Dasha', 'Eva', 'Vlad', 'Mark']));
