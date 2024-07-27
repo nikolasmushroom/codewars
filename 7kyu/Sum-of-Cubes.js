@@ -17,4 +17,4 @@ function sumCubes(n){
     return sum;
 }
 
-console.log(sumCubes(4));
+console.log(sumCubes(2));
