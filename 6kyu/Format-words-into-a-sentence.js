@@ -37,4 +37,4 @@ function formatWords(words){
     return arr.splice(0, arr.length - 1).join(', ') + ' ' + 'and' + ' ' + String(arr[arr.length - 1]);
 }
 
-console.log(formatWords(['one', 'two', 'three']));
+console.log(formatWords(['one', '', 'three']));
