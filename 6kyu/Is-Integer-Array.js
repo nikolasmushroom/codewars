@@ -19,4 +19,4 @@ function isIntArray(arr) {
     return arr.every((elem) => typeof elem === 'number' && !Number.isNaN(elem) && Math.floor(elem) === elem)
 }
 
-console.log(isIntArray([1, 2, 3, NaN]));
+console.log(isIntArray([1, 2, 3, 'NaN']));
