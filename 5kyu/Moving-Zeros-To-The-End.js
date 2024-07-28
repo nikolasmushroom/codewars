@@ -14,4 +14,4 @@ function moveZeros(arr) {
     return filteredArr;
 }
 
-console.log(moveZeros([false, 1, 2, 3, 0, 2, 0, 11, 0, NaN]));
+console.log(moveZeros([false,1,0,1,2,0,1,3,"a"]));
