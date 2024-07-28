@@ -3,16 +3,23 @@
 
 // ✅ SOLUTION:
 function reverse(str){
-    let newStr = [];
     let arr = str.split(' ');
+    let index = 0;
+    let res = [];
     for(let i = 0; i < arr.length; i++){
+        if(arr[i] === ''){
+            index++;
+        }
+        if(index === arr.length){
+            return '';
+        }
         if((i + 1) % 2 === 0){
-            newStr.push(arr[i].split('').reverse().join(''));
+            res.push(arr[i].split('').reverse().join(''));
         }else{
-            newStr.push(arr[i]);
+            res.push(arr[i]);
         }
     }
-    return newStr.join(' ');
+    return res.join(' ');
 }
 
-console.log(reverse("Reverse this string, please!"));
+console.log(reverse('Hello, my name is Mikalai!'))
