@@ -15,4 +15,4 @@ function reverseWords(str) {
     return res.join(' ');
 }
 
-console.log(reverseWords('123 456'))
+console.log(reverseWords('Abcd Efg'))
