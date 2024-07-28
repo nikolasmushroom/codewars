@@ -15,4 +15,4 @@ function reverseWords(str) {
     return res.join(' ');
 }
 
-console.log(reverseWords('Revers every word in string!'))
+console.log(reverseWords('123 456'))
