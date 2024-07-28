@@ -16,4 +16,4 @@ function count(string) {
     return obj;
 }
 
-console.log(count('aaaaabbbbCCCddd'));
+console.log(count('aaa AAA'));
