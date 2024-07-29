@@ -11,8 +11,7 @@
 
 // ✅ SOLUTION:
 function joinStrings(string1, string2){
-    let res = `${string1} ${string2}`;
-    return res;
+    return `${string1} ${string2}`;
 }
 
 console.log(joinStrings('123', '567'));
