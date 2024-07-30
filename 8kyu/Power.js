@@ -18,4 +18,4 @@ function numberToPower(number, power){
     }
     return number;
 }
-console.log(numberToPower(2, 3));
+console.log(numberToPower(5, 2));
