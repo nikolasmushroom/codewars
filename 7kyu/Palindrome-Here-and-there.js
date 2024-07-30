@@ -20,4 +20,4 @@ function convertPalindromes(numbers) {
     })
     return res;
 }
-console.log(convertPalindromes([11, 22, 63]));
+console.log(convertPalindromes([11, 22, 6336]));
