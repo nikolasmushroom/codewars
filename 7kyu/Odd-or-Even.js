@@ -21,7 +21,7 @@ function oddOrEven(array) {
     if (array.length === 0){
         return 'even';
     }
-    let sum = array.reduce((sum, current) => sum + current, 0)
+    let sum = array.reduce((sum, current) => sum + current)
     if(sum % 2 === 0){
         return 'even';
     }else{
@@ -29,4 +29,4 @@ function oddOrEven(array) {
     }
 }
 
-console.log(oddOrEven(0, 2, 2, 3, 4))
+console.log(oddOrEven([0, 1, 2, 3, 4]))
