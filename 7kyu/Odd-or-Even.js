@@ -29,4 +29,4 @@ function oddOrEven(array) {
     }
 }
 
-console.log(oddOrEven(0, 1, 2, 3, 4))
+console.log(oddOrEven(0, 2, 2, 3, 4))
