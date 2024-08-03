@@ -13,17 +13,6 @@
 // ✅ SOLUTION:
 function highAndLow(numbers){
     let arr = numbers.split(' ');
-    let max = arr[0];
-    let min = arr[0];
-    arr.forEach((elem) => {
-        if(parseInt(elem) < min){
-            min = elem;
-        }
-        if(parseInt(elem) > max){
-            max = elem;
-        }
-    })
-    return `${max} ${min}`
+    return `${Math.max(...arr)} ${Math.min(...arr)}`;
 }
-
 console.log(highAndLow('1 2 3 4 5'));
