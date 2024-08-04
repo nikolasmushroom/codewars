@@ -29,4 +29,4 @@ function duplicateCount(text){
     }
     return res;
 }
-console.log(duplicateCount("Indivisibilities"));
+console.log(duplicateCount("IndivIsibilities"));
