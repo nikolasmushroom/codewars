@@ -18,5 +18,5 @@ function bandNameGenerator(str) {
     }
 }
 
-console.log(bandNameGenerator('king'))
+console.log(bandNameGenerator('Kirk'))
 
