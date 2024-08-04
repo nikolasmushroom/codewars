@@ -15,6 +15,7 @@
 function duplicateCount(text){
     let obj = {};
     let res = 0;
+    // преобразуем в один регистр:
     text.toUpperCase().split('').forEach((elem) => {
         if(!obj[elem]){
             obj[elem] = 1;
@@ -29,4 +30,4 @@ function duplicateCount(text){
     }
     return res;
 }
-console.log(duplicateCount("IndivIsibilities"));
+console.log(duplicateCount("aaBbaA")); // should ignore case
