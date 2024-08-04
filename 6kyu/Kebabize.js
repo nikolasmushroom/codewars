@@ -23,4 +23,4 @@ function kebabize(str) {
     })
     return res.join('');
 }
-console.log(kebabize('MyCamelCasedString'));
+console.log(kebabize('MyCamel23CasedString'));
