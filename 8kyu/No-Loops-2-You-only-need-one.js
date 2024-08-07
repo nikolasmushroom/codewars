@@ -13,4 +13,4 @@
 function check(a,b){
     return a.includes(b);
 }
-console.log(check([1, 2, 3], 3));
+console.log(check([1, 2, 3], 4));
