@@ -12,14 +12,12 @@
 
 // ✅ SOLUTION:
 function doubleEveryOther(a) {
-    let res = [];
-    a.forEach((elem, index) => {
+    return a.map((elem, index) => {
         if((index+1)%2===0){
-            res.push(elem*2);
+            return elem * 2;
         }else{
-            res.push(elem);
+            return elem;
         }
     })
-    return res;
 }
 console.log(doubleEveryOther([1, 2, 3, 4]))
