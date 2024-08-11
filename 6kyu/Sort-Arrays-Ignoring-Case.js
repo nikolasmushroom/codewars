@@ -6,7 +6,7 @@
 
 // ✅ Solution:
 let sortme = (names) => {
-    let sorted = names.sort((a, b) => {
+    return names.sort((a, b) => {
         if (a.toLowerCase() < b.toLowerCase()){
             return -1;
         }
@@ -15,6 +15,5 @@ let sortme = (names) => {
         }
         return 0;
     })
-    return sorted;
 }
 console.log(sortme(["Hello", "there", "I'm", "fine"]));
