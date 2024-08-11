@@ -25,4 +25,4 @@ function dup(s) {
     }
     return res;
 }
-console.log(dup(["ccooddddddewwwaaaaarrrrsssss","piccaninny","hubbubbubboo"]));
+console.log(dup(["kelless","voorraaddoosspullen","achcha"]));
