@@ -25,4 +25,4 @@ function toWeirdCase(string){
     return res.join(' ');
 }
 
-console.log(toWeirdCase('This is absolutely amazing'));
+console.log(toWeirdCase('Looks like you past'));
