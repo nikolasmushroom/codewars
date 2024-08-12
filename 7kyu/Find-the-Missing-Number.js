@@ -7,13 +7,12 @@
 
 // Solution
 function missingNo(nums) {
-    let res = 0;
     let sortedArr = nums.sort((a, b) => a-b);
     for(let i = 0; i < sortedArr.length; i++){
         if((sortedArr[i]+1)!==sortedArr[i+1]){
-            res+=sortedArr[i]+1;
-            break;
+            return sortedArr[i]+1;
         }
     }
-    return res;
 }
+
+console.log(missingNo([1, 2, 3, 4, 5, 7]))
