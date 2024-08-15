@@ -8,12 +8,12 @@
 
 // ✅ SOLUTION:
 function divisors(integer) {
-    let numsArr = [];
+    let res = [];
     for(let i = 2; i < integer; i++){
-        numsArr.push(i);
+        if(integer%i===0){
+            res.push(i);
+        }
     }
-    let res = numsArr.filter((elem) => integer%elem===0);
     return !res.length ? `${integer} is prime`: res;
 }
-
 console.log(divisors(14))
