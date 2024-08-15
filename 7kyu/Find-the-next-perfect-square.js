@@ -16,3 +16,4 @@ function findNextSquare(sq) {
 }
 
 console.log(findNextSquare(121));
+console.log(findNextSquare(134));
