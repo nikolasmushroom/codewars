@@ -20,7 +20,7 @@
 function d01(a,b) {
     let arr1 = [a];
     let arr2 = [b];
-    return arr1.includes(arr2[0]) ? true : false;
+    return arr1.includes(arr2[0]);
 }
 
 console.log(d01(1, 2))
