@@ -10,4 +10,4 @@ function sumTwoSmallestNumbers(numbers) {
     let sortedArr = numbers.sort((a, b) => a - b);
     return sortedArr[0]+sortedArr[1];
 }
-console.log(sumTwoSmallestNumbers([1, 5, 7, 4, 2]));
+console.log(sumTwoSmallestNumbers([100, 2, 1]));
