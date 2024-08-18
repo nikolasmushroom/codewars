@@ -19,4 +19,4 @@ function checkThreeAndTwo(array) {
     return arr.includes(2) && arr.includes(3);
 }
 
-console.log(checkThreeAndTwo(['a','a','a','d','d']));
+console.log(checkThreeAndTwo(['a','a','a','d','d','d']));
