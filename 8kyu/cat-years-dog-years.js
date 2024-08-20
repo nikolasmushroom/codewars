@@ -26,6 +26,11 @@ let humanYearsCatYearsDogYears = function(humanYears) {
     let catYears = 0;
     let dogYears = 0;
     for(let i = 1; i <= humanYears; i++){
+        // switch (i) {
+        //     case 1 :  catYears+=15,dogYears+=15;
+        //     case 2 :  catYears+=9, dogYears+=9;
+        //     default : catYears+=4, dogYears+=5;
+        // }
         if(i === 1){
             catYears+=15;
             dogYears+=15
