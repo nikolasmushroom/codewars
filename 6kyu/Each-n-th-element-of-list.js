@@ -17,11 +17,14 @@
 
 // ✅ Solution:
 function each(n, xs) {
-    if(Math.sign(n) === 1 || Math.sign(n) === 0){
-        return xs.filter((elem, index) => (index+1)%n===0);
-    }else{
-        return xs.reverse().filter((elem, index) => (index+1)%n===0);
-    }
+    return Math.sign(n) === 1 || Math.sign(n) === 0?
+        xs.filter((elem, index) => (index+1)%n===0)
+        : xs.reverse().filter((elem, index) => (index+1)%n===0)
+    // if(Math.sign(n) === 1 || Math.sign(n) === 0){
+    //     return xs.filter((elem, index) => (index+1)%n===0);
+    // }else{
+    //     return xs.reverse().filter((elem, index) => (index+1)%n===0);
+    // }
 }
 
 console.log(each(3,  [1, 2, 3, 4, 5]));

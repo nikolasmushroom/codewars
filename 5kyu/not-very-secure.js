@@ -13,7 +13,6 @@ function alphanumeric(string){
     if(arr.length === 0){
         return false;
     }
-    console.log(arr);
     for(let i = 0; i < arr.length; i++){
         if(!/^[A-Za-z0-9-]+$/.test(arr[i])){
             return false;
