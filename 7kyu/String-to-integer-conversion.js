@@ -16,11 +16,12 @@
 // ✅ SOLUTION:
 function myParseInt(str) {
     str = str.trim();
-    if(/^\d+$/.test(str)){
-        return (parseInt(str));
-    }else{
-        return NaN;
-    }
+    return /^\d+$/.test(str)? parseInt(str) : NaN;
+    // if(/^\d+$/.test(str)){
+    //     return (parseInt(str));
+    // }else{
+    //     return NaN;
+    // }
 }
 
 console.log(myParseInt('1'));
