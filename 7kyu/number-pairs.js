@@ -12,11 +12,7 @@
 function getLargerNumbers(a, b) {
     let res = [];
     for(let i = 0; i < a.length; i++){
-        if(a[i] > b[i]){
-            res.push(a[i]);
-        }else{
-            res.push(b[i]);
-        }
+        a[i] > b[i] ? res.push(a[i]) : res.push(b[i]);
     }
     return res;
 }
