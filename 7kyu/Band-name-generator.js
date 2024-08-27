@@ -11,11 +11,9 @@
 
 // ✅ SOLUTION:
 function bandNameGenerator(str) {
-    if(str.endsWith(str[0].toLowerCase())){
-        return `${str.replace(str[0], str[0].toUpperCase())}${str.replace(str[0], '')}`;
-    }else{
-        return `The ${str.replace(str[0], str[0].toUpperCase())}`;
-    }
+    return str.endsWith(str[0].toLowerCase()) ?
+        `${str.replace(str[0], str[0].toUpperCase())}${str.replace(str[0], '')}`
+        :`The ${str.replace(str[0], str[0].toUpperCase())}`
 }
 
 console.log(bandNameGenerator('Kirk'))
