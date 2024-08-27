@@ -17,11 +17,7 @@ function findOutlier(integers){
             oddArr.push(integers[i]);
         }
     }
-    if(evenArr.length < oddArr.length){
-        return evenArr[0];
-    }else{
-        return oddArr[0];
-    }
+    return evenArr.length < oddArr.length ? evenArr[0] : oddArr[0]
 }
 
 console.log(findOutlier([1, 3, 5, 7, 8]))

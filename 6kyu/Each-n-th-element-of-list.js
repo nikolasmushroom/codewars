@@ -19,7 +19,7 @@
 function each(n, xs) {
     return Math.sign(n) === 1 || Math.sign(n) === 0?
         xs.filter((elem, index) => (index+1)%n===0)
-        : xs.reverse().filter((elem, index) => (index+1)%n===0)
+        :xs.reverse().filter((elem, index) => (index+1)%n===0)
     // if(Math.sign(n) === 1 || Math.sign(n) === 0){
     //     return xs.filter((elem, index) => (index+1)%n===0);
     // }else{
