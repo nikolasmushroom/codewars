@@ -54,10 +54,11 @@ let searchArray = function (arrayToSearch, query) {
             }
         }
     }
-    if(res.length === 0){
-        return -1;
-    }else{
-        return res[0];
-    }
+    return res.length === 0 ? -1 : res[0];
+    // if(res.length === 0){
+    //     return -1;
+    // }else{
+    //     return res[0];
+    // }
 }
 console.log(searchArray([[1,2],[3,4],[5,6]], [5,6]));
