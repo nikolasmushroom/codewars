@@ -22,11 +22,8 @@ function oddOrEven(array) {
         return 'even';
     }
     let sum = array.reduce((sum, current) => sum + current)
-    if(sum % 2 === 0){
-        return 'even';
-    }else{
-        return "odd";
-    }
+    return sum % 2 === 0 ? 'even' : "odd"
+
 }
 
 console.log(oddOrEven([0, 1, 2, 3, 4]))
