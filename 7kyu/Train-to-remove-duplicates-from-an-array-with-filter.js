@@ -21,15 +21,14 @@
 
 function unique(arr) {
     let seen = [];
-    let res = arr.filter((elem) => {
-        if(!seen.includes(elem)){
+    return arr.filter((elem) => {
+        if (!seen.includes(elem)) {
             seen.push(elem);
             return true;
-        }else{
+        } else {
             return false;
         }
-    })
-    return res;
+    });
 }
 
 console.log(unique([1, 2, 3, 4, 3, 9, 2, 2, 9]))
