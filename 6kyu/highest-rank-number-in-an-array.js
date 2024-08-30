@@ -16,11 +16,7 @@ function highestRank(arr){
     let res  = [];
     for(let i = 0 ; i < arr.length; i++){
         let min = 1;
-        if(!obj[arr[i]]){
-            obj[arr[i]] = min;
-        }else{
-            obj[arr[i]]++;
-        }
+        !obj[arr[i]] ? obj[arr[i]] = min : obj[arr[i]]++;
     }
     for(let key in obj) {
         arrOfNumbers.push(obj[key]);
