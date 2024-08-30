@@ -20,11 +20,7 @@ function friend(friends){
             friendsOfMe.push(element);
         }
     }
-    if(friendsOfMe.length){
-        return friendsOfMe;
-    }else{
-        return [];
-    }
+    return friendsOfMe.length ? friendsOfMe : [];
 }
 
 console.log(friend(['Misha', 'Masha', 'Dasha', 'Eva', 'Vlad', 'Mark']));
