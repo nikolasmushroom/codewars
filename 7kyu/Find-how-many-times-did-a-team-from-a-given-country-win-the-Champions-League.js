@@ -18,11 +18,7 @@
 function countWins(winnerList, country) {
     let obj = {};
     winnerList.forEach((elem) => {
-        if(!obj[elem.country]){
-            obj[elem.country] = 1;
-        }else{
-            obj[elem.country]++;
-        }
+        !obj[elem.country] ? obj[elem.country] = 1 : obj[elem.country]++;
     })
     return obj[country];
 }
